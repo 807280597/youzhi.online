@@ -1,0 +1,1 @@
+import{H as c,k as s,O as r}from"./index-BSXFukrQ.js";const o="ps_contact_config",i=c("contactConfig",()=>{const t=s(JSON.parse(localStorage.getItem(o))??r);function e(){localStorage.setItem(o,JSON.stringify(t.value))}function a(n){t.value={...t.value,...n},e()}return{config:t,updateConfig:a}});export{i as u};

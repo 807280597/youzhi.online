@@ -1,1 +1,0 @@
-import{C as c,k as s,M as r}from"./index-CfT_26DQ.js";const o="ps_contact_config",i=c("contactConfig",()=>{const t=s(JSON.parse(localStorage.getItem(o))??r);function e(){localStorage.setItem(o,JSON.stringify(t.value))}function a(n){t.value={...t.value,...n},e()}return{config:t,updateConfig:a}});export{i as u};
