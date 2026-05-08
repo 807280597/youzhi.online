@@ -13,10 +13,34 @@
         window.location.replace(`${window.location.origin}/#${pathname}${window.location.search}`)
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-CwWaero3.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BxAWVjJD.css">
+    <!-- Google Translate -->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'zh-CN',
+          includedLanguages: 'en,ja,ko,es,fr,de,pt,ru,ar,vi,th,id,ms,tr,hi',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          autoDisplay: false
+        }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="module" crossorigin src="./assets/index-CdOgqf37.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BSOr9EOU.css">
   </head>
   <body>
     <div id="app"></div>
+    <!-- 页面加载提示 -->
+    <style>
+      #app:empty::before {
+        content: '加载中...';
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        color: #666;
+      }
+    </style>
   </body>
 </html>
