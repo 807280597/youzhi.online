@@ -1,1 +1,0 @@
-import{K as c,p as r}from"./index-CdOgqf37.js";import{DEFAULT_CONTACT_CONFIG as s}from"./initData-Xse5zAKd.js";const o="ps_contact_config",u=c("contactConfig",()=>{const t=r(JSON.parse(localStorage.getItem(o))??s);function e(){localStorage.setItem(o,JSON.stringify(t.value))}function n(a){t.value={...t.value,...a},e()}return{config:t,updateConfig:n}});export{u};
